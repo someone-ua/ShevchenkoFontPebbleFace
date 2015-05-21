@@ -222,184 +222,184 @@ static char* get_hour_text(int hour, int minute) {
   static char* get_minute_text(int minute) {
   switch (minute) {
     case 0:
-      return "рівно";
+      return "Рівно";
       break;
     case 1:
-      return "одна хвилина";
+      return "Одна хвилина";
       break;
     case 2:
-      return "дві хвилини";
+      return "Дві хвилини";
       break;
     case 3:
-      return "три хвилини";
+      return "Три хвилини";
       break;
     case 4:
-      return "чотири хвилини";
+      return "Чотири хвилини";
       break;
     case 5:
-      return "п'ять хвилин";
+      return "П'ять хвилин";
       break;
     case 6:
-      return "шість хвилин";
+      return "Шість хвилин";
       break;
     case 7:
-      return "сім хвилин";
+      return "Сім хвилин";
       break;
     case 8:
-      return "вісім хвилин";
+      return "Вісім хвилин";
       break;
     case 9:
-      return "дев'ять хвилин";
+      return "Дев'ять хвилин";
       break;
     case 10:
-      return "деять хвилин";
+      return "Деять хвилин";
       break;
     case 11:
-      return "одинадцять хвилин";
+      return "Одинадцять хвилин";
       break;
     case 12:
-      return "дванадцять хвилин";
+      return "Дванадцять хвилин";
       break;
     case 13:
-      return "тринадцять хвилин";
+      return "Тринадцять хвилин";
       break;
     case 14:
-      return "чотирнадцять хвилин";
+      return "Чотирнадцять хвилин";
       break;
     case 15:
-      return "п'ятнадцять хвилин";
+      return "П'ятнадцять хвилин";
       break;
     case 16:
-      return "шістнадцять хвилин";
+      return "Шістнадцять хвилин";
       break;
     case 17:
-      return "сімнадцять хвилин";
+      return "Сімнадцять хвилин";
       break;
     case 18:
-      return "вісімнадцять хвилин";
+      return "Вісімнадцять хвилин";
       break;
     case 19:
-      return "дев'ятнадцять хвилин";
+      return "Дев'ятнадцять хвилин";
       break;
     case 20:
-      return "двадцять хвилин";
+      return "Двадцять хвилин";
       break;
     case 21:
-      return "двадцять одна хвилина";
+      return "Двадцять одна хвилина";
       break;
     case 22:
-      return "двадцять дві хвилини";
+      return "Двадцять дві хвилини";
       break;
     case 23:
-      return "двадцять три хвилини";
+      return "Двадцять три хвилини";
       break;
     case 24:
-      return "двадцять чотири хвилини";
+      return "Двадцять чотири хвилини";
       break;
     case 25:
-      return "чверть";
+      return "Чверть";
       break;    
     case 26:
-      return "двадцять шість хвилин";
+      return "Двадцять шість хвилин";
       break;
     case 27:
-      return "двадцять сім хвилин";
+      return "Двадцять сім хвилин";
       break;
     case 28:
-      return "двадцять вісім хвилин";
+      return "Двадцять вісім хвилин";
       break;
     case 29:
-      return "двадцять дев'ять хвилин";
+      return "Двадцять дев'ять хвилин";
       break;
     case 30:
-      return "пів";
+      return "Пів";
       break;
     case 31:
-      return "тридцять одна хвилина";
+      return "Тридцять одна хвилина";
       break;
     case 32:
-      return "тридцять дві хвилини";
+      return "Тридцять дві хвилини";
       break;
     case 33:
-      return "тридцять три хвилини";
+      return "Тридцять три хвилини";
       break;
     case 34:
-      return "тридцять чотири хвилини";
+      return "Тридцять чотири хвилини";
       break;
     case 35:
-      return "тридцять п'ять хвилин";
+      return "Тридцять п'ять хвилин";
       break;
     case 36:
-      return "тридцять шість хвилин";
+      return "Тридцять шість хвилин";
       break;
     case 37:
-      return "тридцять сім хвилин";
+      return "Тридцять сім хвилин";
       break;
     case 38:
-      return "тридцять вісім хвилин";
+      return "Тридцять вісім хвилин";
       break;
     case 39:
-      return "тридцять дев'ять хвилин";
+      return "Тридцять дев'ять хвилин";
       break;
     case 40:
-      return "без двадцяти";
+      return "Без двадцяти";
       break;
     case 41:
-      return "без дев'ятнадцяти";
+      return "Без дев'ятнадцяти";
       break;
     case 42:
-      return "без вісімнадцяти";
+      return "Без вісімнадцяти";
       break;
     case 43:
-      return "без сімнадцяти";
+      return "Без сімнадцяти";
       break;
     case 44:
-      return "без шістнадцяти";
+      return "Без шістнадцяти";
       break;
     case 45:
-      return "без п'ятнадцяти";
+      return "Без п'ятнадцяти";
       break;
     case 46:
-      return "без чотирнадцяти";
+      return "Без чотирнадцяти";
       break;
     case 47:
-      return "без тринадцяти";
+      return "Без тринадцяти";
       break;
     case 48:
-      return "без дванадцяти";
+      return "Без дванадцяти";
       break;
     case 49:
-      return "без одинадцяти";
+      return "Без одинадцяти";
       break;
     case 50:
-      return "без десяти";
+      return "Без десяти";
       break;
     case 51:
-      return "без дев'яти";
+      return "Без дев'яти";
       break;
     case 52:
-      return "без восьми";
+      return "Без восьми";
       break;
     case 53:
-      return "без сіми";
+      return "Без сіми";
       break;
     case 54:
-      return "без шести";
+      return "Без шести";
       break;
     case 55:
-      return "без п'яти";
+      return "Без п'яти";
       break;
     case 56:
-      return "без чотирьох";
+      return "Без чотирьох";
       break;
     case 57:
-      return "без трьох";
+      return "Без трьох";
       break;
     case 58:
-      return "без двох";
+      return "Без двох";
       break;
     case 59:
-      return "без одної";
+      return "Без одної";
       break;
   }  
   return "";
