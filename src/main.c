@@ -8,22 +8,7 @@ static void update_time() {
   // Get a tm structure
   time_t temp = time(NULL); 
   struct tm *tick_time = localtime(&temp);
-
-  /*
-  // Create a long-lived buffer
-  static char buffer[] = "00:00";
-
-  // Write the current hours and minutes into the buffer
-  if(clock_is_24h_style()) {
-    //Use 2h hour format
-    strftime(buffer, sizeof("00:00"), "%H:%M", tick_time);
-  } else {
-    //Use 12 hour format
-    strftime(buffer, sizeof("00:00"), "%I:%M", tick_time);
-  }
-
-*/
-  
+ 
   // Display this time on the TextLayer
   text_layer_set_text(s_time_layer, format_time(tick_time));
 }
@@ -42,7 +27,6 @@ static GColor txtcolor() {
 
 static void main_window_load(Window *window) {
   // Create time TextLayer
-  //s_time_layer = text_layer_create(GRect(0, 55, 144, 50));
   s_time_layer = text_layer_create(layer_get_bounds(window_get_root_layer(window)));
   text_layer_set_background_color(s_time_layer, bgcolor());
   text_layer_set_text_color(s_time_layer, txtcolor());
