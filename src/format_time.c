@@ -297,7 +297,7 @@ static char* get_hour_text(int hour, int minute) {
       return "Двадцять чотири хвилини";
       break;
     case 25:
-      return "Двадять п'ять";
+      return "Двадять п'ять хвилин";
       break;    
     case 26:
       return "Двадцять шість хвилин";
