@@ -19,199 +19,199 @@ static char* get_hour_text(int hour, int minute) {
       if (minute == 0)
         return "північ";
       if (minute > 0 && minute < 40)
-        return "першої";
+        return "на першу";
       if (minute >= 40)
-        return "одна";
+        return "перша";
       break;
     case 1:
       if (minute == 0)
         return "одна година";
       if (minute > 0 && minute < 40)
-        return "другої";
+        return "на другу";
       if (minute >= 40)
-        return "два";
+        return "друга";
       break;
     case 2:
       if (minute == 0)
-        return "дві години";
+        return "друга година";
       if (minute > 0 && minute < 40)
-        return "третьої";
+        return "на третю";
       if (minute >= 40)
-        return "три";
+        return "третя";
       break;
     case 3:
       if (minute == 0)
-        return "три години";
+        return "третя година";
       if (minute > 0 && minute < 40)
-        return "четвертої";
+        return "на четверту";
       if (minute >= 40)
-        return "чотири";
+        return "четверта";
       break;
     case 4:
       if (minute == 0)
-        return "чотири години";
+        return "четверта година";
       if (minute > 0 && minute < 40)
-        return "п'ятої";
+        return "на п'яту";
       if (minute >= 40)
-        return "п'ять";
+        return "п'ята";
       break;
     case 5:
       if (minute == 0)
-        return "п'ять годин";
+        return "п'ята година";
       if (minute > 0 && minute < 40)
-        return "шостої";
+        return "на шосту";
       if (minute >= 40)
-        return "шість";
+        return "шоста";
       break;
     case 6:
       if (minute == 0)
-        return "шість годин";
+        return "шоста година";
       if (minute > 0 && minute < 40)
-        return "сьомої";
+        return "на сьому";
       if (minute >= 40)
-        return "сім";
+        return "сьома";
       break;
     case 7:
       if (minute == 0)
-        return "сім годин";
+        return "сьома година";
       if (minute > 0 && minute < 40)
-        return "восьмої";
+        return "на восьму";
       if (minute >= 40)
-        return "вісім";
+        return "восьма";
       break;
     case 8:
       if (minute == 0)
-        return "вісім годин";
+        return "восьма година";
       if (minute > 0 && minute < 40)
-        return "дев'ятої";
+        return "на дев'яту";
       if (minute >= 40)
-        return "дев'ять";
+        return "дев'ята";
       break;
     case 9:
       if (minute == 0)
-        return "дев'ять годин";
+        return "дев'ята година";
       if (minute > 0 && minute < 40)
-        return "десятої";
+        return "на десяту";
       if (minute >= 40)
-        return "десять";
+        return "десята";
       break;
     case 10:
       if (minute == 0)
-        return "десять годин";
+        return "десята година";
       if (minute > 0 && minute < 40)
-        return "одинадцятої";
+        return "на одинадцяту";
       if (minute >= 40)
-        return "одинадцять";
+        return "одинадцята";
       break;
     case 11:
       if (minute == 0)
-        return "одинадцять годин";
+        return "одинадцята година";
       if (minute > 0 && minute < 40)
-        return "дванадцятої";
+        return "на дванадцяту";
       if (minute >= 40)
-        return "дванадцять";
+        return "дванадцята";
       break;
     case 12:
       if (minute == 0)
-        return "дванадцять годин";
+        return "дванадцята година";
       if (minute > 0 && minute < 40) {
         if (clock_is_24h_style())
-          return "тринадцятої";
+          return "на тринадцяту";
         else
-          return "першої";
+          return "на першу";
       }
       if (minute >= 40) {
         if (clock_is_24h_style())
-          return "тринадцять";
+          return "тринадцята";
         else
-          return "одна";
+          return "перша";
       }
       break;
     case 13:
       if (minute == 0)
-        return "тринадцять годин";
+        return "тринадцята година";
       if (minute > 0 && minute < 40)
-        return "чотирнадцятої";
+        return "на чотирнадцяту";
       if (minute >= 40)
-        return "чотирнадцять";
+        return "чотирнадцята";
       break;
     case 14:
       if (minute == 0)
-        return "чотирнадцять годин";
+        return "чотирнадцята година";
       if (minute > 0 && minute < 40)
-        return "п'ятнадцятої";
+        return "на п'ятнадцяту";
       if (minute >= 40)
-        return "п'ятнадцять";
+        return "п'ятнадцята";
       break;
     case 15:
       if (minute == 0)
-        return "п'ятнадцять годин";
+        return "п'ятнадцята година";
       if (minute > 0 && minute < 40)
-        return "шістнадцятої";
+        return "на шістнадцяту";
       if (minute >= 40)
-        return "шістнадцять";
+        return "шістнадцята";
       break;
     case 16:
       if (minute == 0)
-        return "шістнадцять годин";
+        return "шістнадцята година";
       if (minute > 0 && minute < 40)
-        return "сімнадцятої";
+        return "на сімнадцяту";
       if (minute >= 40)
-        return "сімнадцять";
+        return "сімнадцята";
       break;
     case 17:
       if (minute == 0)
-        return "сімнадцять годин";
+        return "сімнадцята година";
       if (minute > 0 && minute < 40)
-        return "вісімнадцятої";
+        return "на вісімнадцяту";
       if (minute >= 40)
-        return "вісімнадцять";
+        return "вісімнадцята";
       break;
     case 18:
       if (minute == 0)
-        return "вісімнадцять годин";
+        return "вісімнадцята година";
       if (minute > 0 && minute < 40)
-        return "дев'ятнадцятої";
+        return "на дев'ятнадцяту";
       if (minute >= 40)
-        return "дев'ятнадцять";
+        return "дев'ятнадцята";
       break;
     case 19:
       if (minute == 0)
-        return "дев'ятнадцять годин";
+        return "дев'ятнадцята година";
       if (minute > 0 && minute < 40)
-        return "двадцятої";
+        return "на двадцяту";
       if (minute >= 40)
-        return "двадцять";
+        return "двадцята";
       break;
     case 20:
       if (minute == 0)
-        return "двадцять годин";
+        return "двадцята година";
       if (minute > 0 && minute < 40)
-        return "двадцять першої";
+        return "на двадцять першу";
       if (minute >= 40)
-        return "двадцять одна";
+        return "двадцять перша";
       break;
     case 21:
       if (minute == 0)
-        return "двадцять одна година";
+        return "двадцять перша година";
       if (minute > 0 && minute < 40)
-        return "двадцять другої";
+        return "на двадцять другу";
       if (minute >= 40)
-        return "двадцять дві";
+        return "двадцять друга";
       break;
     case 22:
       if (minute == 0)
-        return "двадцять дві години";
+        return "двадцять друга година";
       if (minute > 0 && minute < 40)
-        return "двадцять третьої";
+        return "на двадцять третю";
       if (minute >= 40)
-        return "двадцять три";
+        return "двадцять третя";
       break;
     case 23:
       if (minute == 0)
-        return "двадцять три години";
+        return "двадцять третя година";
       if (minute > 0 && minute < 40)
-        return "двадцять четвертої";
+        return "по двадцять третій";
       if (minute >= 40)
         return "північ";
       break;
@@ -225,181 +225,181 @@ static char* get_hour_text(int hour, int minute) {
       return "Рівно";
       break;
     case 1:
-      return "Одна хвилина";
+      return "Одна хвилина на";
       break;
     case 2:
-      return "Дві хвилини";
+      return "Дві хвилини на";
       break;
     case 3:
-      return "Три хвилини";
+      return "Три хвилини на";
       break;
     case 4:
-      return "Чотири хвилини";
+      return "Чотири хвилини на";
       break;
     case 5:
-      return "П'ять хвилин";
+      return "П'ять хвилин на";
       break;
     case 6:
-      return "Шість хвилин";
+      return "Шість хвилин на";
       break;
     case 7:
-      return "Сім хвилин";
+      return "Сім хвилин на";
       break;
     case 8:
-      return "Вісім хвилин";
+      return "Вісім хвилин на";
       break;
     case 9:
-      return "Дев'ять хвилин";
+      return "Дев'ять хвилин на";
       break;
     case 10:
-      return "Деять хвилин";
+      return "Деять хвилин на";
       break;
     case 11:
-      return "Одинадцять хвилин";
+      return "Одинадцять хвилин на";
       break;
     case 12:
-      return "Дванадцять хвилин";
+      return "Дванадцять хвилин на";
       break;
     case 13:
-      return "Тринадцять хвилин";
+      return "Тринадцять хвилин на";
       break;
     case 14:
-      return "Чотирнадцять хвилин";
+      return "Чотирнадцять хвилин на";
       break;
     case 15:
-      return "Чверть";
+      return "Чверть на";
       break;
     case 16:
-      return "Шістнадцять хвилин";
+      return "Шістнадцять хвилин на";
       break;
     case 17:
-      return "Сімнадцять хвилин";
+      return "Сімнадцять хвилин на";
       break;
     case 18:
-      return "Вісімнадцять хвилин";
+      return "Вісімнадцять хвилин на";
       break;
     case 19:
-      return "Дев'ятнадцять хвилин";
+      return "Дев'ятнадцять хвилин на";
       break;
     case 20:
-      return "Двадцять хвилин";
+      return "Двадцять хвилин на";
       break;
     case 21:
-      return "Двадцять одна хвилина";
+      return "Двадцять одна хвилина на";
       break;
     case 22:
-      return "Двадцять дві хвилини";
+      return "Двадцять дві хвилини на";
       break;
     case 23:
-      return "Двадцять три хвилини";
+      return "Двадцять три хвилини на";
       break;
     case 24:
-      return "Двадцять чотири хвилини";
+      return "Двадцять чотири хвилини на";
       break;
     case 25:
-      return "Двадять п'ять хвилин";
+      return "Двадять п'ять хвилин на";
       break;    
     case 26:
-      return "Двадцять шість хвилин";
+      return "Двадцять шість хвилин на";
       break;
     case 27:
-      return "Двадцять сім хвилин";
+      return "Двадцять сім хвилин на";
       break;
     case 28:
-      return "Двадцять вісім хвилин";
+      return "Двадцять вісім хвилин на";
       break;
     case 29:
-      return "Двадцять дев'ять хвилин";
+      return "Двадцять дев'ять хвилин на";
       break;
     case 30:
-      return "Пів";
+      return "Пів на";
       break;
     case 31:
-      return "Тридцять одна хвилина";
+      return "Тридцять одна хвилина на";
       break;
     case 32:
-      return "Тридцять дві хвилини";
+      return "Тридцять дві хвилини на";
       break;
     case 33:
-      return "Тридцять три хвилини";
+      return "Тридцять три хвилини на";
       break;
     case 34:
-      return "Тридцять чотири хвилини";
+      return "Тридцять чотири хвилини на";
       break;
     case 35:
-      return "Тридцять п'ять хвилин";
+      return "Тридцять п'ять хвилин на";
       break;
     case 36:
-      return "Тридцять шість хвилин";
+      return "Тридцять шість хвилин на";
       break;
     case 37:
-      return "Тридцять сім хвилин";
+      return "Тридцять сім хвилин на";
       break;
     case 38:
-      return "Тридцять вісім хвилин";
+      return "Тридцять вісім хвилин на";
       break;
     case 39:
-      return "Тридцять дев'ять хвилин";
+      return "Тридцять дев'ять хвилин на";
       break;
     case 40:
-      return "Без двадцяти";
+      return "За двадцять хвилин";
       break;
     case 41:
-      return "Без дев'ятнадцяти";
+      return "За дев'ятнадцять хвилин";
       break;
     case 42:
-      return "Без вісімнадцяти";
+      return "За вісімнадцять хвилин";
       break;
     case 43:
-      return "Без сімнадцяти";
+      return "За сімнадцять хвилин";
       break;
     case 44:
-      return "Без шістнадцяти";
+      return "За шістнадцять хвилин";
       break;
     case 45:
-      return "Без чверті";
+      return "За чверть";
       break;
     case 46:
-      return "Без чотирнадцяти";
+      return "За чотирнадцять хвилин";
       break;
     case 47:
-      return "Без тринадцяти";
+      return "За тринадцять хвилин";
       break;
     case 48:
-      return "Без дванадцяти";
+      return "За дванадцять хвилин";
       break;
     case 49:
-      return "Без одинадцяти";
+      return "За одинадцять хвилин";
       break;
     case 50:
-      return "Без десяти";
+      return "За десять хвилин";
       break;
     case 51:
-      return "Без дев'яти";
+      return "За дев'ять хвилин";
       break;
     case 52:
-      return "Без восьми";
+      return "За вісім хвилин";
       break;
     case 53:
-      return "Без сіми";
+      return "За сім хвилин";
       break;
     case 54:
-      return "Без шести";
+      return "За шість хвилин";
       break;
     case 55:
-      return "Без п'яти";
+      return "За п'ять хвилин";
       break;
     case 56:
-      return "Без чотирьох";
+      return "За чотири хвилини";
       break;
     case 57:
-      return "Без трьох";
+      return "За три хвилини";
       break;
     case 58:
-      return "Без двох";
+      return "За дві хвилини";
       break;
     case 59:
-      return "Без одної";
+      return "За одну хвилину";
       break;
   }  
   return "";
